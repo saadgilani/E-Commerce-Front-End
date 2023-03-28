@@ -1,0 +1,136 @@
+#displayCards{
+    display: grid;
+    padding: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  
+}
+.product_Details_Input {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+}
+
+.box{
+    position: relative;
+}
+
+.input {
+    padding: 50px;
+    margin: 30px 0 0 0;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+    
+}
+.box:hover input{
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
+/* YouTube icon */
+#ytb {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 52px;
+  border: 2px solid transparent;
+  color: #ff1717;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+#ytb:hover{
+  border-radius: 50%;
+  border-color: #ff1717;
+  box-shadow: 0 0 10px #ff4040;
+}
+
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+a:hover{
+    color: orange;
+}
+
+
+nav {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+}
+
+.spaned {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.spaned::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 300px;} 
+
+
+.prodHomeBtn{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+}
+.prodHomeBtn1{
+  padding: 30px;
+}

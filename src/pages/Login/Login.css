@@ -1,0 +1,60 @@
+.loginPage{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.InputField{
+    width: 40%;
+    text-align: center;
+    margin:  auto;
+    border: 5px solid black;
+    padding: 20px;
+}
+.InputFieldBtn{
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+}
+#lginPageCard{
+    background-color: white;
+    border: 5px solid black;
+    padding: 50px;
+    width: 40%;
+    margin: auto;
+    height: 60%;
+}
+#InputFieldDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.eMsg{
+    color: red;
+}
+.soup{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+#theLginPage{
+    width: 100vw;
+    height: 100vh;
+}
+.InputFieldBtn:hover{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    padding: 20px;
+
+
+    
+}

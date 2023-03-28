@@ -1,0 +1,19 @@
+.page_error_itemLink{
+    
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: black;
+    width: 50%;
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+}
+#errorPage{
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.page_error_itemLink:hover{
+    background-color: wheat;
+    color: #EF5097;
+}

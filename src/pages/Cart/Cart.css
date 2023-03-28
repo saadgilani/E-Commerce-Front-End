@@ -1,0 +1,28 @@
+#cartCounter{
+    display: flex;
+    justify-content: center;
+}
+.cartCounterBtns{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 0 15px;
+}
+.cartCounterBtns:hover{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 0 15px;
+}
+.remCart{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.remCart:hover{
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}

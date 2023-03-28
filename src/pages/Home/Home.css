@@ -1,0 +1,135 @@
+h1{
+    padding: 30px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    
+    text-shadow: -15px 5px 20px #ced0d3;
+   
+    
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F9f1cc;
+    text-shadow: 5px 5px 0px #FFB650, 
+      10px 10px 0px #FFD662, 
+      15px 15px 0px  #FF80BF, 
+      20px 20px 0px #EF5097, 
+      25px 25px 0px #6868AC, 
+      30px 30px 0px #90B1E0;
+  }
+  #Pages{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    padding: 20px;
+
+  }
+  .itemLink{
+    border: 3px solid black;
+    margin: 20px 0;
+    height: 300px;
+    text-decoration: none;
+    background-color: black;
+    color: black;
+    padding: 30px;
+    font-size: 50px;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/1-revolve-sale-2023-index-comp-6400e732500bc.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat; 
+
+    /* shine code */
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+
+
+    /* smooth transition */
+  transition: transform 1s ease;
+  }
+  .itemLink:hover{
+    /* shine code */
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+    /* enlarge button */
+    transform: scale(1.03);
+  }
+ .caroBack{
+  border: 10px solid black;
+
+  /* -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+  mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+  -webkit-mask-size: 800%;
+  mask-size: 800%;
+  -webkit-mask-position: 0;
+  mask-position: 0;
+
+
+      /* smooth transition */
+/* transition: transform 1s ease; */ 
+ }
+ /* .caroBack:hover{
+  transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+
+     enlarge button
+     transform: scale(1.03);
+} */
+ .outerCaroBack{
+  padding:34px;
+ }
+ .itemLink2{
+  border: 3px solid black;
+  margin: 20px 0;
+  height: 300px;
+  text-decoration: none;
+  background-color: black;
+  color: black;
+  padding: 30px;
+  font-size: 50px;
+  background-image: url('https://www.economy.pk/wp-content/uploads/2020/11/Fashion-Icon.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+
+  -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+
+
+        /* smooth transition */
+  transition: transform 1s ease;
+}
+.itemLink2:hover{
+  transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+
+     /* enlarge button */
+     transform: scale(1.03);
+}
+.linkText{
+  color: white;
+  margin-top: 20%;
+  letter-spacing: 10px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.linkText2{
+  color: black;
+  margin-top: 10%;
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
